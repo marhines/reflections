@@ -1,0 +1,35 @@
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Tracking changes in a program file helps find bugs from typos and helps "undo" inadverant changes.   Also makes it easy to try out changes and easily revert if the changes are not desired.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Pros: Choosing to manually make commits allows you the control to make the commit when logically necessary.  The commits make sense and should be a clear history of changes made.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+The version control systems where likely developed with different audiences in mind.  Git seems to have been developed for the programming environment.  Given that it is very common to have more that one file when programming, and changes in one file often require changes in another.
+
+How can you use the commands git log and git diff to view the history of files?
+
+The git log displays a listing of all commit id and the message associated with that commit and who authored the commit.  The git diff is used along with the ids of two commits to show the changes made from one commit to the next commit.
+
+How might using version control make you more confident to make changes that could break something?
+
+Version Control would serve as a safety net, so one could revert to a previous version if unwanted changes were made.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to get experience using Git as I set a portfolio of my work.
+
+
+
+Lesson 1: Diff
+One can use Diff (or FC) to see only the difference between two versions of a file, this is helpful since you only have to see the difference and avoid scanning the entire file.
+
+Having easy access to the entire history of a file would help find bugs that creep in when adding to a file.
+
+Pros of manually choosing when to commit, your commit will not be too small and will have a logical reason for the commit
+Cons of manually choosing to commit is the if you forget to commit ofter enough the purpose of version control is lost.
+
+Some situations would call for multi-file saving and some situations would not, the decision on the developers part to allow multi-file would depend on the target audience.
