@@ -1,1 +1,4 @@
 When would you want to create a remote repository rather than keeping all your work local?
+
+Using the repository remotely would be useful if your local access was not available.  
+Having remote access creates many options for access to your repository.
