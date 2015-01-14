@@ -5,3 +5,26 @@ The git init command sets up the current directory for use with git.  A .git dir
 How is the staging area different from the working directory and the repository?  What value do you think it offers?
 
 The staging area holds only the files that you have added, so that only the files you specify will be committed.   This feature gives the user control to commit only select files and not include all the file in the working directory.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+When you stage the changes you can use the git diff with no ids to check the that the changes are not more than one logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would keep history organized by allowing labeling of the version and easy access to the path each version has taken.
+
+How do the diagrams help you visualize the branch structure?
+
+A diagram allows one to see the disconnected branches.
+
+What is the result of merging two branches together?  Why do we represent it in the diagram the way we do?
+
+When two branches are merged the two versions are brought together into one combined version.  The merge is represented by bringing the to node together into one.
+
+What are the pros and cons of Git's automatic merging vs always doing merges manually?
+
+Pros:  Git's automatic merging would definitely save time and would ensure that all conflicts would be pointed out.  Manually merges allows for ultimate control but would be so time comsuming.
+
+Cons:  Doing merges manually would be both time consuming and subject to mistakes do to oversight of a conflict.
+
